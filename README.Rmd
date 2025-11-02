@@ -29,7 +29,7 @@ library(ggplot2)
 
 The zzysdata package contains example datasets and functions for data visualization and analysis. It was developed as part of an R package assignment to demonstrate dataset creation, function documentation, and plotting.
 
-### Example Data
+### Data
 
 The package includes a dataset called clean_data which contains site and variable information for environmental analysis.
 
@@ -38,7 +38,7 @@ data("clean_data")
 head(clean_data)
 ```
 
-### Example Function
+### Function
 
 Below is an example function provided in the package that creates a scatter plot between two numeric variables.
 
@@ -46,7 +46,7 @@ Below is an example function provided in the package that creates a scatter plot
 plot_scatter(mtcars, "mpg", "wt")
 ```
 
-### Example Visualization
+### Visualization
 
 We can also visualize the clean_data dataset using ggplot2.
 

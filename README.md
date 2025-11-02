@@ -19,7 +19,7 @@ visualization and analysis. It was developed as part of an R package
 assignment to demonstrate dataset creation, function documentation, and
 plotting.
 
-### Example Data
+### Data
 
 The package includes a dataset called clean_data which contains site and
 variable information for environmental analysis.
@@ -37,7 +37,7 @@ head(clean_data)
     ## 5 Lewis Run    Elevation        6
     ## 6   Caribou Conductivity        4
 
-### Example Function
+### Function
 
 Below is an example function provided in the package that creates a
 scatter plot between two numeric variables.
@@ -48,7 +48,7 @@ plot_scatter(mtcars, "mpg", "wt")
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-### Example Visualization
+### Visualization
 
 We can also visualize the clean_data dataset using ggplot2.
 
