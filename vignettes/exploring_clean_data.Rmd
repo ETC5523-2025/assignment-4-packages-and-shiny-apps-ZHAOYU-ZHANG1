@@ -1,0 +1,14 @@
+---
+title: "Exploring Clean Data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Exploring Clean Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+library(zzysdata)
+library(ggplot2)
+data("clean_data")
+```
