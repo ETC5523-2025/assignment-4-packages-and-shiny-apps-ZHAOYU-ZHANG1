@@ -36,3 +36,10 @@ plot_scatter(mtcars, "mpg", "wt")
 usethis::use_pkgdown()
 
 pkgdown::build_site()
+
+install.packages("pkgdown")
+pkgdown::build_site()
+list.files("docs", recursive = TRUE)
+
+devtools::load_all()
+plot_bar(mtcars, "cyl", "mpg")

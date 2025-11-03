@@ -38,14 +38,6 @@ data("clean_data")
 head(clean_data)
 ```
 
-### Function
-
-Below is an example function provided in the package that creates a scatter plot between two numeric variables.
-
-```{r}
-plot_scatter(mtcars, "mpg", "wt")
-```
-
 ### Visualization
 
 We can also visualize the clean_data dataset using ggplot2.

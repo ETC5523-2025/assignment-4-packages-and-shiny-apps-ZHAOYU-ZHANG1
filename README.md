@@ -37,17 +37,6 @@ head(clean_data)
     ## 5 Lewis Run    Elevation        6
     ## 6   Caribou Conductivity        4
 
-### Function
-
-Below is an example function provided in the package that creates a
-scatter plot between two numeric variables.
-
-``` r
-plot_scatter(mtcars, "mpg", "wt")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
-
 ### Visualization
 
 We can also visualize the clean_data dataset using ggplot2.
@@ -63,7 +52,7 @@ y = "Variance Explained (%)"
 theme_minimal()
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ### Project Summary
 
