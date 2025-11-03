@@ -12,7 +12,7 @@ It includes: - A dataset (`clean_data`) - A custom plotting function (`plot_scat
 
 You can install the package (if not already installed) using:
 
-```{r setup, include=FALSE}
+```{r setup, echo=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 
 # Install zzysdata if it’s not yet installed

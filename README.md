@@ -12,6 +12,18 @@ It includes: - A dataset (`clean_data`) - A custom plotting function
 
 You can install the package (if not already installed) using:
 
+``` r
+knitr::opts_chunk$set(echo = TRUE)
+
+# Install zzysdata if it’s not yet installed
+if (!requireNamespace("zzysdata", quietly = TRUE)) {
+  devtools::install(build = TRUE, reload = TRUE)
+}
+
+library(zzysdata)
+library(ggplot2)
+```
+
 ### Overview
 
 The zzysdata package contains example datasets and functions for data
