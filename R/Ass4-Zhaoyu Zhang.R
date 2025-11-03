@@ -43,3 +43,5 @@ list.files("docs", recursive = TRUE)
 
 devtools::load_all()
 plot_bar(mtcars, "cyl", "mpg")
+
+devtools::check()

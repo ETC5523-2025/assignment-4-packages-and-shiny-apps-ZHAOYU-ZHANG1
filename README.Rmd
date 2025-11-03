@@ -56,3 +56,6 @@ theme_minimal()
 
 ### Project Summary
 This project involved developing an R package named zzysdata as part of the ETC5523 “Communicating with Data” Assignment 4. The package contains a cleaned dataset, useful data exploration functions, and an interactive Shiny application. Using devtools and usethis, I structured the package with directories for raw data, documentation, and the Shiny app. The function plot_scatter() was created to visualize relationships between variables and tested successfully using the mtcars dataset. The Shiny app, located in inst/app/, allows users to interactively explore the data and visualize trends dynamically. All components, including documentation generated with roxygen2, were verified through devtools::document(), build(), and check(). Finally, a pkgdown site was configured to host the package documentation and vignettes. Overall, this project demonstrates the complete workflow from data cleaning and analysis to creating a user-friendly, interactive, and well-documented R package.
+
+# Website
+zzysdata package is published at: https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-ZHAOYU-ZHANG1/
